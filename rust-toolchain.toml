@@ -1,0 +1,6 @@
+[toolchain]
+# Remember! If you change the channel, you also have to change the .gitlab-ci.yml file in the root of this repository to synchronize them so that they run on the same version.
+# To keep every developer on the same toolchain. When this is updated, expect to have to do some compile fixes because of changes to rust standard libraries and the compiler.
+channel = "1.66" 
+components = ["rustfmt", "clippy"]
+

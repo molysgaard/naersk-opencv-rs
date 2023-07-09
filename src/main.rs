@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, world!");
+    println!("{}", opencv::core::get_version_string().unwrap());
 }

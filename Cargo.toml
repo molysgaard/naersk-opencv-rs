@@ -3,6 +3,6 @@ name = "naersk-opencv-rs"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+# use minimal opencv here to show that this is a general problem, and not connected to any of the features in opencv
+opencv = { version = "0.78.2", default_features = false }
